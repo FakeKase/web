@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.nav1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.nav2 {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    padding: 20px 40px;
+    margin-top: 0px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border: 1.5px;
+    border-style: solid;
+    border-radius: 30px;
+    opacity: 0;
+    z-index: -1;
+}
+
+#studentID2 {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.navbar2 a {
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+#myhomepage {
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    transition: 300ms;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.navbar a {
+    transition: 300ms;
+}
+
+#about:hover {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#edu:hover {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#skill:hover {
+    font-size: 25px;
+    font-weight: 700;  
+}
+
+#cont:hover {
+    font-size: 25px;
+    font-weight: 700; 
+}
+
+#myhomepage:hover {
+    font-size: 35px;
+    rotate: -15deg;
+}
+
+
+.navbar2 a {
+    transition: 300ms;
+}
+
+.nav2 {
+    transition: 150ms;
+}
+
+#about2:hover {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#edu2:hover {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#skill2:hover {
+    font-weight: 700;
+    font-size: 18px; 
+}
+
+#cont2:hover {
+    font-weight: 700;
+    font-size: 18px; 
+}
+
+#studentID2:hover {
+    font-size: 35px;
+    rotate: -10deg;
+}
+
+#studentID2 {
+    transition: 300ms;
+}
+
+#nav22.scrolling {
+    position: fixed;
+    margin-top: 20px;
+    opacity: 100%;
+    z-index: 100;
+}
+
+#nav22.scrolling {
+    transition: 300ms;
+}
+
+.image {
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-left: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nerd {
+    margin-top: 40px;
+    height: 35vh;
+    width: 35vh;
+    clip-path: circle(50%);
+    
+}
+
+.Ins {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+#head1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.typeanimation h1 {
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .10em;
+    animation: 
+      typing 3.5s steps(40, end) infinite,
+      blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+ 
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+
+
+.aboutme {
+    display: block;
+    background-color: transparent;
+    text-align: left;
+    justify-items: center;
+    justify-content: center;
+    margin-top: -550px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 40% ;
+    padding-bottom: 100px;
+
+}
+
+#head2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#myabout {
+    position: relative;
+    display: block;
+    margin-left: 5%;
+    margin-top: 20%;
+    height: 67vh;
+    width: 50vh;
+    transition: 300ms;
+}
+
+#myabout:hover {
+    rotate: -5deg;
+}
+
+.aboutme {
+    margin-right: 25px;
+}
+
+#head3 {
+    margin-top: 10px;
+    flex-direction: column;
+    padding-top: 50px;
+    font-size: 33px;
+    font-weight: 900;
+}
+
+#head4 {
+    margin-left: 0;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.Education {
+    display: flex;
+    flex-direction: column;
+    margin: 250px 60px;
+    background-color: transparent;
+}
+
+#myeducation {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+#psuwit {
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#psuwit:hover {
+    font-size: 42px;
+}
+
+#psuwit, a:visited{
+    color: black;
+}
+
+#psuwitinfo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#kmutt {
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#kmutt:hover {
+    font-size: 42px;
+}
+
+#kmutt, a:visited{
+    color: black;
+}
+
+
+#kmuttinfo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.skills {
+    margin-top: 250px;
+    margin-left: 60px;
+    margin-bottom: 7.5cm;
+    display: flex;
+    flex-direction: column;
+}
+
+#myskill {
+    font-size: 45px;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.codeicon {
+    display: flex;
+    margin-top: 40px;
+    margin-left: -100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#icon1 {
+    height: 12vh;
+    width: 12vh;
+    transition: 300ms;
+}
+
+#icon1:hover {
+    rotate: 10deg;
+}
+
+#icon2 {
+    height: 12vh;
+    width: 12vh;
+    transition: 300ms;
+}
+
+#icon2:hover {
+    rotate: -10deg;
+}
+
+#icon3 {
+    height: 12vh;
+    width: 12vh;
+    transition: 300ms;
+}
+
+#icon3:hover {
+    rotate: 10deg;
+}
+
+#icon4 {
+    height: 12vh;
+    width: 12vh;
+    transition: 300ms;
+}
+
+#icon4:hover {
+    rotate: -10deg;
+}
+
+#icon5 {
+    height: 12vh;
+    width: 12vh;
+    transition: 300ms;
+}
+
+#icon5:hover {
+    rotate: 10deg;
+}
+
+#suffering {
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.contactme {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#mycontact {
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacticon {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vh;
+    height: 10vh;
+    transition: 300ms;
+}
+
+.contacticonfinalboss {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+#fb:hover {
+    rotate: 10deg;
+}
+
+#ig:hover {
+    rotate: -10deg;
+}
+
+#dc:hover {
+    rotate: 10deg;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: -50px;
+    margin-bottom: 50px;
+}
+
+#fbinfo {
+    margin-left: 20px;
+}
+
+#iginfo {
+    margin-left: -50px;
+}
+
+footer {
+    font-size: 15px;
+    color: darkgray;
+    text-align: center;
+    margin-bottom: 20px;
+}
